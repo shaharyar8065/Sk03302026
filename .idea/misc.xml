@@ -5,6 +5,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/bank-system-console/pom.xml" />
+        <option value="$PROJECT_DIR$/practice/pom.xml" />
+        <option value="$PROJECT_DIR$/practice-classes/pom.xml" />
+        <option value="$PROJECT_DIR$/Printer/pom.xml" />
+        <option value="$PROJECT_DIR$/fan/pom.xml" />
       </list>
     </option>
   </component>

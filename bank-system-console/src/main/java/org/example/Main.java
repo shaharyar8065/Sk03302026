@@ -1,17 +1,22 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    static void main() {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        IO.println(String.format("Hello and welcome!"));
+import org.example.entities.BankAccount;
+import org.example.entities.CheckingsAccount;
+import org.example.entities.SavingsAccount;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            IO.println("i = " + i);
-        }
+import java.math.BigDecimal;
+import java.util.List;
+
+public class Main{
+    public static void main(String[]args){
+        List<BankAccount> listofAccounts = List.of(
+                new SavingsAccount("dsbh23-3hdx",new BigDecimal("450.00"), new BigDecimal("4.5")),
+                new SavingsAccount("vgdhs-dsvchx",new BigDecimal("1000.00"),new BigDecimal("6.1")),
+                new CheckingsAccount("dhch2s-514kx",new BigDecimal("1600.00"), new BigDecimal("10.00"))
+        );
+
+        System.out.println(listofAccounts.get(0).equals(listofAccounts.get(0)));
     }
 }
+
+
