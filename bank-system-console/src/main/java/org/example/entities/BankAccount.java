@@ -2,7 +2,7 @@ package org.example.entities;
 
 import java.math.BigDecimal;
 
-public class BankAccount {
+    public abstract class BankAccount {
     private long id;
     private String accountNumber;
     private BigDecimal balance;
@@ -31,10 +31,11 @@ public class BankAccount {
         this.balance = balance;
         this.active = isActive;
     }
+    public abstract void applyMonthlyFee();
 
     public void deposit(BigDecimal amount) {
-       if(amount.compareTo(BigDecimal.ZERO) > 0) {
-           throw new RuntimeException("Amount must be greater than zero");
+       if(amount.compareTo(BigDecimal.ZERO) < 0) {
+           throw new RuntimeException("Amount passed is less than zero");
        }
        this.balance.add(amount);
     }

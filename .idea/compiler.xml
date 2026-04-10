@@ -9,6 +9,7 @@
         <module name="practice" />
         <module name="fan" />
         <module name="Printer" />
+        <module name="Phone" />
         <module name="bank-system-console" />
       </profile>
     </annotationProcessing>
