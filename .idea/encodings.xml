@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Appliance/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Appliance/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Phone/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Phone/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Printer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Printer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bank-system-console/Hospital/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bank-system-console/Hospital/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bank-system-console/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bank-system-console/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/car_example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/car_example/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fan/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fan/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/practice/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/practice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hospital/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hospital/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pizza-shop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pizza-shop/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/practice-classes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/practice-classes/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test/src/main/resources" charset="UTF-8" />
   </component>
 </project>
