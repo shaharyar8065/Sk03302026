@@ -7,7 +7,7 @@ import org.example.enums.Priority;
 import java.math.BigDecimal;
 
 public class Main {
-    public static void main() {
+    public static void main(String[] args) {
         BankAccount account = BankAccount
                 .newChecking("JSKADNASSAJFN(*#@(*H9832", new BigDecimal("5000"));
 

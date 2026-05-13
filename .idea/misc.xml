@@ -6,16 +6,11 @@
       <list>
         <option value="$PROJECT_DIR$/bank-system-console/pom.xml" />
         <option value="$PROJECT_DIR$/practice/pom.xml" />
-        <option value="$PROJECT_DIR$/practice-classes/pom.xml" />
-        <option value="$PROJECT_DIR$/Printer/pom.xml" />
-        <option value="$PROJECT_DIR$/fan/pom.xml" />
-        <option value="$PROJECT_DIR$/Phone/pom.xml" />
         <option value="$PROJECT_DIR$/WaterPurifier/pom.xml" />
         <option value="$PROJECT_DIR$/Appliances/pom.xml" />
-        <option value="$PROJECT_DIR$/pizza-shop/pom.xml" />
         <option value="$PROJECT_DIR$/Hospital/pom.xml" />
-        <option value="$PROJECT_DIR$/car_example/pom.xml" />
-        <option value="$PROJECT_DIR$/test/pom.xml" />
+        <option value="$PROJECT_DIR$/jd-bank-app/pom.xml" />
+        <option value="$PROJECT_DIR$/todoapp/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
