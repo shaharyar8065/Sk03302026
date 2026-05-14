@@ -9,15 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="hospital" />
       </profile>
-      <profile name="Annotation profile for jd-bank-app" enabled="true">
+      <profile name="Annotation profile for expensetracker" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
         </processorPath>
-        <module name="jd-bank-app" />
+        <module name="expensetracker" />
       </profile>
       <profile name="Annotation profile for todoapp" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -25,8 +24,10 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
         </processorPath>
         <module name="todoapp" />
+        <module name="jd-bank-app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -42,6 +43,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="expensetracker" options="-parameters" />
       <module name="jd-bank-app" options="-parameters" />
       <module name="todoapp" options="-parameters" />
     </option>
